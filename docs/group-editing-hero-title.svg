@@ -1,0 +1,19 @@
+<svg width="1280" height="120" viewBox="0 0 1280 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heroGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00D9FF"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+  </defs>
+  <text
+    x="50%"
+    y="50%"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    fill="url(#heroGradient)"
+    font-family="Segoe UI, Helvetica, Arial, sans-serif"
+    font-size="44"
+    font-weight="800"
+    letter-spacing="-0.02em"
+  >Group Editing: Edit Multiple Images in One Go</text>
+</svg>

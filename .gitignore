@@ -1,0 +1,50 @@
+# ------------------------------
+# Python cache / build artifacts
+# ------------------------------
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ------------------------------
+# Logs / temp
+# ------------------------------
+*.log
+.DS_Store
+
+# ------------------------------
+# Video files (do not upload)
+# ------------------------------
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.m4v
+
+# ------------------------------
+# Model weights (do not upload)
+# ------------------------------
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.bin
+*.h5
+*.gguf
+
+# ------------------------------
+# Local checkpoints / generated artifacts
+# ------------------------------
+checkpoints/
+models/**
+!models/.gitkeep
+
+# Generated data / outputs
+# (uncomment if you want to keep all generated files local)
+# test-data/
+# test-out*/

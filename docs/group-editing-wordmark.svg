@@ -1,0 +1,19 @@
+<svg width="320" height="90" viewBox="0 0 320 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wordmarkGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00D9FF"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+  </defs>
+  <text
+    x="8"
+    y="50%"
+    text-anchor="start"
+    dominant-baseline="middle"
+    fill="url(#wordmarkGradient)"
+    font-family="Segoe UI, Helvetica, Arial, sans-serif"
+    font-size="40"
+    font-weight="800"
+    letter-spacing="-0.02em"
+  >Group Editing</text>
+</svg>
