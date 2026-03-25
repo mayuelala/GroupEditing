@@ -7,13 +7,13 @@
 
 <h2><span style="color:#FFFFFF;">Group Editing: Edit Multiple Images in One Go</span></h2>
 
-[Yue Ma](placeholder_url), [Xinyu Wang](placeholder_url), [Qianli Ma](placeholder_url), [Qinghe Wang](placeholder_url), [Mingzhe Zheng](placeholder_url), [Xiangpeng Yang](placeholder_url), [Hao Li](placeholder_url), [Chongbo Zhao](placeholder_url), [Jixuan Ying](placeholder_url), [Hongyu Liu](placeholder_url), [Qifeng Chen](placeholder_url)
+[Yue Ma](https://mayuelala.github.io/), [Xinyu Wang](https://github.com/cp-cp), [Qianli Ma](https://mqleet.github.io/), [Qinghe Wang](https://qinghew.github.io/), [Mingzhe Zheng](https://scholar.google.com/citations?user=U6bikksAAAAJ&hl=en), [Xiangpeng Yang](https://xiangpengyang.github.io/), [Hao Li](placeholder_url), [Chongbo Zhao](https://github.com/chongbozhao3-coder), [Jixuan Ying](https://hpesojyjx.github.io/), [Harry Yang](https://hyang.org/), [Hongyu Liu](https://kumapowerliu.github.io/), [Qifeng Chen](https://cqf.io/)
 
-<strong>is Accepted by CVPR 2026</strong>
+<strong>Accepted by CVPR 2026</strong>
 
 <a href='#'><img src='https://img.shields.io/badge/ArXiv-coming_soon-red'></a>
 <a href='https://group-editing.github.io'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
-[![GitHub](https://img.shields.io/github/stars/Heey731/Group-Editing?style=social)](https://github.com/Heey731/Group-Editing)
+[![GitHub](https://img.shields.io/github/stars/mayuelala/GroupEditing?style=social)](https://github.com/mayuelala/GroupEditing)
 
 </div>
 
@@ -33,8 +33,8 @@ Please view the demo videos, visual comparisons, and qualitative results on the
 
 ## 📋 Changelog
 
-- 2026.03 Initial public release of Group-Edit codebase
-- 2026.03 Released Group-Edit LoRA checkpoint `epoch-9.safetensors` on Hugging Face: https://huggingface.co/Heey731/group-editing
+- 2026.03 Initial public release of Group-Editing codebase
+- 2026.03 Released Group-Editing LoRA checkpoint `epoch-9.safetensors` on Hugging Face: https://huggingface.co/Heey731/group-editing
 
 ## 🚧 Todo
 
@@ -60,9 +60,9 @@ Please view the demo videos, visual comparisons, and qualitative results on the
 conda create -n group-edit python=3.10
 conda activate group-edit
 
-git clone https://github.com/Heey731/Group-Editing.git
+git clone https://github.com/mayuelala/GroupEditing
 # Install dependencies
-cd Group-Editing
+cd GroupEditing
 pip install -r requirements.txt
 ```
 
@@ -84,7 +84,7 @@ This project needs several checkpoints from Hugging Face / ModelScope plus your 
 | VGGT | `facebook/VGGT-1B` | `./models/facebook/models--facebook--VGGT-1B` | `vggt/infer-out-from-video-4frame.py` |
 | Wan VACE 14B shards | `Wan-AI/Wan2.1-VACE-14B` | `./models/Wan-AI/Wan2.1-VACE-14B` | `infer-test.py` |
 | Wan converted T5/VAE | `DiffSynth-Studio/Wan-Series-Converted-Safetensors` | `./models/DiffSynth-Studio/Wan-Series-Converted-Safetensors` | `infer-test.py` |
-| Group-Edit LoRA | `Heey731/group-editing` (`epoch-9.safetensors`) | `./models/epoch-9.safetensors` | `infer-test.py` |
+| Group-Editing LoRA | `Heey731/group-editing` (`epoch-9.safetensors`) | `./models/epoch-9.safetensors` | `infer-test.py` |
 
 ### Download core checkpoints (GroundingDINO / SAM / VGGT)
 
@@ -111,7 +111,7 @@ modelscope download --model DiffSynth-Studio/Wan-Series-Converted-Safetensors \
   --local_dir ./models/DiffSynth-Studio/Wan-Series-Converted-Safetensors
 ```
 
-### Download Group-Edit LoRA checkpoint
+### Download Group-Editing LoRA checkpoint
 
 ```python
 from huggingface_hub import hf_hub_download
@@ -162,7 +162,7 @@ python infer-test.py
 <details><summary>Click for directory structure</summary>
 
 ```text
-Group-Edit/
+Group-Editing/
 ├── diffsynth/                         # Core diffusion framework
 │   ├── models/                        # Model definitions (Wan DiT/VACE, encoders, etc.)
 │   └── pipelines/                     # Pipeline implementations (wan_video_new.py)
