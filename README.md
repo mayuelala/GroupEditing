@@ -11,7 +11,7 @@
 
 <strong>Accepted by CVPR 2026</strong>
 
-<a href='#'><img src='https://img.shields.io/badge/ArXiv-coming_soon-red'></a>
+<a href='https://arxiv.org/abs/2603.22883'><img src='https://img.shields.io/badge/ArXiv-2603.22883-red'></a>
 <a href='https://group-editing.github.io'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
 [![GitHub](https://img.shields.io/github/stars/mayuelala/GroupEditing?style=social)](https://github.com/mayuelala/GroupEditing)
 
