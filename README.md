@@ -33,6 +33,7 @@ Please view the demo videos, visual comparisons, and qualitative results on the
 
 ## 📋 Changelog
 
+- 2026.04 If you need the training code, please email me!
 - 2026.03 Initial public release of Group-Editing codebase
 - 2026.03 Released Group-Editing LoRA checkpoint `epoch-9.safetensors` on Hugging Face: https://huggingface.co/Heey731/group-editing
 
